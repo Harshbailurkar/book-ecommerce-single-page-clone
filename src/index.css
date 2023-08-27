@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+nav {
+  width: 100%;
+  height: 4.5rem;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-items {
+  width: 100%;
+}
+.nav-item {
+  list-style: none;
+  display: flex;
+}
+.nav-item li {
+  padding: 2rem;
+  display: flex;
+  font-size: large;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 100%;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.nav--logo {
+  max-width: 100px;
+  left: 0;
+}
+
+.heroimg {
+  max-width: 400px;
+  min-width: 70px;
+  align-self: center;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+main {
+  padding: 2rem;
+}
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.hero--head {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+.hero--para {
+  margin-top: 0;
+  font-size: 1.2rem;
+  object-fit: cover;
+}
+
+.card {
+  width: 40%;
+  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-basis: 225px;
+  background-color: white;
+  object-fit: cover;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.card:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.rating {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  padding: 1em;
+}
+.rating > img {
+  width: 10px;
+}
+.count {
+  color: grey;
+}
+
+.card > img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.searchbar {
+  height: 50%;
+  align-self: center;
+  gap: 1em;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.3em;
+  margin-right: 0.7em;
+}
+button {
+  background-color: rgba(30, 70, 105, 0.548);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3em;
+  margin-right: 2em;
+}
+@media screen and (max-width: 790px) {
+  .nav-item {
+    display: none;
+  }
+}
+.stock {
+  background-color: rgb(249, 122, 122);
+  top: 25px;
+  left: 25px;
+  padding: 5px 7px;
+  position: absolute;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.online {
+  background-color: green;
+  top: 25px;
+  left: 25px;
+
+  position: absolute;
+  border-radius: 50%;
+  font-weight: bold;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  border: 1px double black;
+}
