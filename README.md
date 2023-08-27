@@ -14,7 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-![image](https://github.com/Harshbailurkar/book-ecommerce-single-page-clone/assets/113308692/fa90d0cc-6b55-41ba-85e1-50d7688ffc10)
+![image](https://github.com/Harshbailurkar/book-ecommerce-single-page-clone/assets/113308692/9e7e2cea-fa96-494a-854b-07e1f1aa1ecb)
+
 
 ![image](https://github.com/Harshbailurkar/book-ecommerce-single-page-clone/assets/113308692/0c42491a-cb17-494d-b221-385438311f04)
 
