@@ -1,3 +1,4 @@
+### to run on local devices download the code. open folder in terminal and write : npm install 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
